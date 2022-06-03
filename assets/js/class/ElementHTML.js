@@ -1,4 +1,5 @@
-class ElementHTML{
+class ElementHTML {
+
   header(className,id){
       const header = document.createElement("header");
       if(className){

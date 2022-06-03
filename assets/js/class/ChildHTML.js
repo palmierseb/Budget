@@ -1,6 +1,5 @@
 import ElementHTML from "./ElementHTML.js";
 
-
 class ChildHTML extends ElementHTML {
     section(parent){
         const selectParent = document.querySelector(parent);
