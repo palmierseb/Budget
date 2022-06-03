@@ -1,3 +1,9 @@
-import elm from './class/ElementHTML.js';
-const test = new elm();
-test.header("id:monid", "class:maclass");
+import Header from "./components/header.js";
+import Main from "./components/main.js";
+import Footer from "./components/footer.js";
+
+
+Header();
+Main();
+Footer();
+
